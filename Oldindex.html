@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Heidi's Quiz</title>
+</head>
+<body>
+
+<div class="intro py-3 bg-white text-center">
+  <div class="container">
+    <h2 class="text-primary display-3 my-4">Your Quiz</h2>
+  </div>
+  </div>
+
+  <!-- result section 
+  d-none means it does not show up - it is dissappeared-->
+<div class="result py-4 d-none bg-light text-center">
+  <div class="container lead">
+   <p>
+     You won the following score!
+     <span class="text-primary display-4 p-3"0%></span>
+   </p>
+  </div>
+</div>
+
+  <!-- section of the quiz -->
+<div class="quiz py-4 bg-primary">
+  <div class="container">
+    <h2 class="my-5 text-white">Let's start with the questions</h2>
+  
+  <form  class="quiz-form text-light">
+    <div class="my-5">
+    <p class="lead font-weiht-normal">1. What is the name of napoleons first known girlfriend?</p>
+    <div class="form-check my-2 text-white-50">
+      <input type="radio" name="q1" value="A" checked>
+      <label class="form-check-label">the first girlfriend's name was Desiree</label>
+    </div>
+
+    <div class="form-check my-2 text-white-50">
+      <input type="radio" name="q1" value="B">
+      <label class="form-check-label">the first girlfriend's name was Josephine</label>
+    </div>
+
+    <div class="form-check my-2 text-white-50">
+      <input type="radio" name="q1" value='C'>
+      <label class="form-check-label">the first girlfriend's name was Antoniette</label>
+    </div>
+
+    <div class="my-5">
+      <p class="lead font-weiht-normal">2. In which year was the french invasion in Russia by Napoleon?</p>
+      <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q2" value="A" checked>
+        <label class="form-check-label">it was in 1831</label>
+      </div>
+  
+      <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q2" value="B">
+        <label class="form-check-label">It was in 1812</label>
+      </div>
+  
+      <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q2" value='C'>
+        <label class="form-check-label">it was in 1826</label>
+      </div>
+  </div>
+
+  <div class="my-5">
+    <p class="lead font-weiht-normal">3. In which battle did Napoleon won against russia
+       and Austria in 1805?</p>
+    <div class="form-check my-2 text-white-50">
+      <input type="radio" name="q3" value="A" checked>
+      <label class="form-check-label">it was in Waterloo</label>
+    </div>
+
+    <div class="form-check my-2 text-white-50">
+      <input type="radio" name="q3" value="B">
+      <label class="form-check-label">It was in Austerlitz</label>
+    </div>
+
+    <div class="form-check my-2 text-white-50">
+      <input type="radio" name="q3" value='C'>
+      <label class="form-check-label">it was in Auerstedt and Jena</label>
+    </div>
+</div>
+
+<div class="my-5">
+  <p class="lead font-weiht-normal">4. By when did the french revolution start?</p>
+  <div class="form-check my-2 text-white-50">
+    <input type="radio" name="q4" value="A" checked>
+    <label class="form-check-label">it was in 1789</label>
+  </div>
+
+  <div class="form-check my-2 text-white-50">
+    <input type="radio" name="q4" value="B">
+    <label class="form-check-label">It was in 1769</label>
+  </div>
+
+  <div class="form-check my-2 text-white-50">
+    <input type="radio" name="q4" value='C'>
+    <label class="form-check-label">it was in 1758</label>
+  </div>
+</div>
+
+<div class="text-center">
+  <input type="submit" name="submit" class="btn btn-light">
+</div>
+  </form>
+
+  
+  </div>
+</div>
+    
+
+
+    <script src="myAPI.js"></script>
+    
+</body>
+</html>
